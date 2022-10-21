@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Assetbekov-Almar/nasa/issues"
   },
-  "homepage": "https://github.com/Assetbekov-Almar/nasa#readme"
+  "homepage": "https://github.com/Assetbekov-Almar/nasa#readme",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
 }
