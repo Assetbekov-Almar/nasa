@@ -23,7 +23,7 @@ jobs:
       - name: Use MongoDB from github actions
         uses: supercharge/mongodb-github-action@1.8.0
         with:
-          mongodb-version: ${{ matrix.mong
+          mongodb-version: ${ matrix.mongodb-version }}
       - run: npm install
       - run: npm run build --prefix client
       - run: npm test
